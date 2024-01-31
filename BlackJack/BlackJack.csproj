@@ -1,0 +1,76 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CardLibrary\CardLibrary.csproj" />
+    <ProjectReference Include="..\Logger\Logger.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\ClubsAce.png" />
+    <Resource Include="Images\ClubsEight.png" />
+    <Resource Include="Images\ClubsFive.png" />
+    <Resource Include="Images\ClubsFour.png" />
+    <Resource Include="Images\ClubsJack.png" />
+    <Resource Include="Images\ClubsKing.png" />
+    <Resource Include="Images\ClubsNine.png" />
+    <Resource Include="Images\ClubsQueen.png" />
+    <Resource Include="Images\ClubsSeven.png" />
+    <Resource Include="Images\ClubsSix.png" />
+    <Resource Include="Images\ClubsTen.png" />
+    <Resource Include="Images\ClubsThree.png" />
+    <Resource Include="Images\ClubsTwo.png" />
+    <Resource Include="Images\DiamondsAce.png" />
+    <Resource Include="Images\DiamondsEight.png" />
+    <Resource Include="Images\DiamondsFive.png" />
+    <Resource Include="Images\DiamondsFour.png" />
+    <Resource Include="Images\DiamondsJack.png" />
+    <Resource Include="Images\DiamondsKing.png" />
+    <Resource Include="Images\DiamondsNine.png" />
+    <Resource Include="Images\DiamondsQueen.png" />
+    <Resource Include="Images\DiamondsSeven.png" />
+    <Resource Include="Images\DiamondsSix.png" />
+    <Resource Include="Images\DiamondsTen.png" />
+    <Resource Include="Images\DiamondsThree.png" />
+    <Resource Include="Images\DiamondsTwo.png" />
+    <Resource Include="Images\HeartsAce.png" />
+    <Resource Include="Images\HeartsEight.png" />
+    <Resource Include="Images\HeartsFive.png" />
+    <Resource Include="Images\HeartsFour.png" />
+    <Resource Include="Images\HeartsJack.png" />
+    <Resource Include="Images\HeartsKing.png" />
+    <Resource Include="Images\HeartsNine.png" />
+    <Resource Include="Images\HeartsQueen.png" />
+    <Resource Include="Images\HeartsSeven.png" />
+    <Resource Include="Images\HeartsSix.png" />
+    <Resource Include="Images\HeartsTen.png" />
+    <Resource Include="Images\HeartsThree.png" />
+    <Resource Include="Images\HeartsTwo.png" />
+    <Resource Include="Images\SpadesEight.png" />
+    <Resource Include="Images\SpadesFive.png" />
+    <Resource Include="Images\SpadesFour.png" />
+    <Resource Include="Images\SpadesJack.png" />
+    <Resource Include="Images\SpadesKing.png" />
+    <Resource Include="Images\SpadesNine.png" />
+    <Resource Include="Images\SpadesOne.png" />
+    <Resource Include="Images\SpadesQueen.png" />
+    <Resource Include="Images\SpadesSeven.png" />
+    <Resource Include="Images\SpadesSix.png" />
+    <Resource Include="Images\SpadesTen.png" />
+    <Resource Include="Images\SpadesThree.png" />
+    <Resource Include="Images\SpadesTwo.png" />
+  </ItemGroup>
+
+</Project>

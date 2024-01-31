@@ -1,0 +1,19 @@
+﻿using System.Configuration;
+using System.Data;
+using System.Windows;
+
+namespace BlackJack
+{
+    /// <summary>
+    /// Interaction logic for App.xaml
+    /// </summary>
+    public partial class App : Application
+    {
+        public void ResizeWindow(int width, int height)
+        {
+            Current.MainWindow.Width = width;
+            Current.MainWindow.Height = height;
+        }
+    }
+
+}
